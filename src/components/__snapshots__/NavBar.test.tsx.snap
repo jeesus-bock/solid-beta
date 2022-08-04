@@ -1,0 +1,25 @@
+// Vitest Snapshot v1
+
+exports[`<NavBar /> > Renders 1`] = `
+<div>
+  <nav
+    class="_nav_1sufr_1"
+  >
+    <a
+      href="/"
+    >
+      Home
+    </a>
+    <a
+      href="/about"
+    >
+      About
+    </a>
+    <a
+      href="/magicks"
+    >
+      Magicks
+    </a>
+  </nav>
+</div>
+`;

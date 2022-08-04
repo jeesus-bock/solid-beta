@@ -1,0 +1,9 @@
+// Vitest Snapshot v1
+
+exports[`views <Home /> > Renders 1`] = `
+<div>
+  <div>
+    Home
+  </div>
+</div>
+`;
