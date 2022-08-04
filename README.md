@@ -11,5 +11,4 @@ This is investigation to keep a solidjs boilerplate fresh for personal use
 
 ### TODO
 - Add createX stuff to cover all bases
-- Bump testing versions wrt vitest
-- Bump vite version
+- Bump vitest version
