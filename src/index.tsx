@@ -2,7 +2,7 @@
 import { render } from 'solid-js/web';
 import { Router } from '@solidjs/router';
 import '../node_modules/normalize.css/normalize.css';
-
+import './index.css';
 import { App } from './App';
 
 render(

@@ -1,0 +1,18 @@
+.nav {
+    background-color: rgb(240, 212, 207);
+    display: flex;
+    column-gap: 0.5rem;
+    padding-left: 1rem;
+    padding-top: 0.25rem;
+}
+
+.nav>a {
+    background-color: rgb(240, 233, 212);
+    border-top-right-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+    border-top: 1px solid rgb(182, 154, 113);
+    border-left: 1px solid rgb(182, 154, 113);
+    border-right: 1px solid rgb(182, 154, 113);
+    padding: 1rem 2rem 1rem 2rem;
+    text-decoration: none;
+}
