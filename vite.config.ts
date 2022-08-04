@@ -9,20 +9,27 @@ export default defineConfig({
   server: {
     port: 3000,
   },
-  build: {
-    target: 'esnext',
-    // @ts-ignore
-    polyfillDynamicImport: false,
-  },
   test: {
     environment: 'jsdom',
-
-    setupFilesAfterEnv: './setup-vitest.ts',
-    deps: {
-      inline: [/solid-js/, /solid-testing-library/],
-    },
+    globals: true,
     transformMode: {
       web: [/\.[jt]sx?$/],
     },
+    setupFiles: './setup-vitest.ts',
+    // solid needs to be inline to work around
+    // a resolution issue in vitest:
+    deps: {
+      inline: [/solid-js/, /solid-testing-library/],
+    },
+    // if you have few tests, try commenting one
+    // or both out to improve performance:
+    threads: false,
+    isolate: false,
+  },
+  build: {
+    target: 'esnext',
+  },
+  resolve: {
+    conditions: ['development', 'browser'],
   },
 });
