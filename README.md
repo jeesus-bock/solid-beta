@@ -10,7 +10,8 @@ This is investigation to keep a solidjs boilerplate fresh for personal use
 
 ### Features
 
-- Latest SolidJS beta
+- Latest SolidJS beta, as per https://www.npmjs.com/package/solid-js?activeTab=versions
+- Vite 3.0
 - Vitest testing
 
 ### TODO
