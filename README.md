@@ -12,7 +12,7 @@ This is investigation to keep a solidjs boilerplate fresh for personal use
 
 - Latest SolidJS beta, as per https://www.npmjs.com/package/solid-js?activeTab=versions
 - Vite 3.0
-- Vitest testing
+- Vitest testing@0.20.1
 
 ### TODO
 - Add createX stuff to cover all bases
