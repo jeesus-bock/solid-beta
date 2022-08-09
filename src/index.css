@@ -1,3 +1,6 @@
+:root {
+  --bg1: #f8e3ef;
+}
 body {
   font-family: monospace;
 }

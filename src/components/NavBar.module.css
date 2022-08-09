@@ -1,11 +1,11 @@
 .nav {
-  background-color: rgb(240, 212, 207);
+  background-color: var(--bg1);
   display: flex;
   column-gap: 0.5rem;
+  color: rgb(1, d, 1);
 }
 
 .nav > a {
-  background-color: rgb(240, 233, 212);
   padding: 1rem;
   text-decoration: none;
 }
